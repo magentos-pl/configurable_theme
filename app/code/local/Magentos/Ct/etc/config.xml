@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Magentos_Ct>
+            <version>0.1</version>
+        </Magentos_Ct>
+    </modules>
+	<global>
+        <blocks>
+            <magentos>
+				<class>Magentos_Ct_Block</class>
+			</magentos>
+        </blocks>
+    </global>
+</config>
