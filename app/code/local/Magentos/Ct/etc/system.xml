@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<config>
+  <tabs>
+        <magentos translate="label" module="magentos">
+            <label>Magentos template</label>
+            <sort_order>1</sort_order>
+        </magentos>
+  </tabs>
+  <sections>
+    <magentos_default translate="label">
+      <label>Ogólna konfiguracja</label>
+      <tab>magentos</tab>
+      <frontend_type>text</frontend_type>
+      <sort_order>10</sort_order>
+      <show_in_default>1</show_in_default>
+      <show_in_website>1</show_in_website>
+      <show_in_store>1</show_in_store>
+	  <groups>
+        
+        <magentos_fonts translate="label">
+          <label>Czcionki</label>
+          <frontend_type>text</frontend_type>
+          <sort_order>100</sort_order>
+          <show_in_default>1</show_in_default>
+          <show_in_website>1</show_in_website>
+          <show_in_store>1</show_in_store>
+          <fields>
+            
+           
+            <h2size translate="label comment">
+              <label>Wielkość h2:</label>
+              <frontend_type>text</frontend_type>
+              <sort_order>5</sort_order>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>1</show_in_store>
+            </h2size>
+             <h2color translate="label comment">
+              <label>Kolor:</label>
+              <frontend_type>text</frontend_type>
+              <sort_order>10</sort_order>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>1</show_in_store>
+            </h2color>
+
+
+
+          </fields>
+        </magentos_fonts>
+      </groups>	
+    </magentos_default>
+  </sections>
+</config>

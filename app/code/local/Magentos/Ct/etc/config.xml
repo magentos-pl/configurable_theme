@@ -11,5 +11,9 @@
 				<class>Magentos_Ct_Block</class>
 			</magentos>
         </blocks>
+		 <helpers>
+            <magentos><class>Magentos_Ct_Helper</class></magentos>
+        </helpers>
     </global>
+	
 </config>
